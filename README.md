@@ -18,3 +18,11 @@ Git Hub에 내 파일 등록하는 법
 
 6. git push -u origin main
    github에 저장
+
+** .gitignore 파일에 들어가는 것
+
+git hub에 업로드되지 말아야 할 파일
+
+ex1. 대용량 dependency 패키지들
+ex2. 실행파일들
+ex3. 보안 민감 파일 (private key, 패스워드, 보안키 등)
