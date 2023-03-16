@@ -1,8 +1,99 @@
-
-h2 {
-    background-color: #fff;
-    
+body {
+  background-color: #24376e;
+  margin: 0;
 }
-h1 {
-    background-color: pink;
+
+header {
+  margin: auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+
+.title {
+  width: 200px;
+}
+
+.menu {
+  display: flex;
+}
+
+.mainMenu {
+  display: flex;
+}
+.subMenu1 {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+.subMenu2 {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.screenMode {
+  padding: 0px 10px;
+  width: 30px;
+}
+
+.gitMenu {
+  padding: 0px 10px;
+  width: 20px;
+}
+
+.search {
+  padding: 0px 10px;
+  width: 20px;
+}
+
+.dot3Menu {
+  padding: 0px 10px;
+  width: 20px;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  color: #dddddd;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 6px 16px;
+  display: none;
+}
+.new {
+  background: #08164088;
+  color: #0cdeed;
+  padding: 4px 10px;
+  font-weight: 600;
+  font-size: 12px;
+  border: 0;
+  border-radius: 12px;
+}
+
+.login {
+  color: #737373;
+  display: inline-block;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 30px;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.loginBox {
+  display: flex;
+}
+
+@media (min-width: 1024px) {
+  button {
+    display: inline-block;
+  }
+  .subMenu1 {
+    display: flex;
+  }
+  .subMenu2 {
+    display: none;
+  }
 }

@@ -1,0 +1,17 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+
+  @media (min-width: 768px) {
+    background-color: blue;
+  }
+
+  @media (min-width: 960px) {
+    background-color: gold;
+  }
+
+  @media (min-width: 1020px) {
+    background-color: skyblue;
+  }
+}
