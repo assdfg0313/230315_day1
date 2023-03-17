@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+header {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+
+.firstMenu {
+  display: flex;
+}
+
+.title {
+}
+.search {
+}
+
+.secondMenu {
+  display: flex;
+}
+
+.subMenu {
+}
+
+.shopMenu {
+}
+
+@media (min-width: 950px) {
+}
+
+.logo-left {
+  width: 40px;
+}
+.logo-right {
+  width: 32px;
+}
+
+button {
+  background-color: white;
+  border: 0;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.ellipsis {
+  width: 24px;
+  margin-left: 16px;
+}

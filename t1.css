@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background-color: #111;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic,
+    sans-serif;
+  line-height: inherit;
+}
+
+button {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: 0;
+}
+img {
+  width: 150px;
+  padding-left: 100px;
+  vertical-align: middle;
+  height: auto;
+  margin: 0;
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftpart {
+}
+
+.rightpart {
+  display: flex;
+  color: white;
+  padding-bottom: 1.5rem;
+}
+
+.buttonC {
+  display: none;
+}
+
+.recruit {
+  display: flex;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.link {
+  display: none;
+  width: 20px;
+  font-size: 1rem;
+}
+
+.burger {
+}
+
+@media (min-width: 1024px) {
+  .buttonC {
+    display: flex;
+  }
+  .link {
+    display: flex;
+  }
+}

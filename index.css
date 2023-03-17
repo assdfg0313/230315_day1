@@ -22,6 +22,26 @@ header {
 .mainMenu {
   display: flex;
 }
+
+button {
+  background: transparent;
+  border: 0;
+  color: #dddddd;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 6px 16px;
+  display: none;
+}
+.new {
+  background: #08164088;
+  color: #0cdeed;
+  padding: 4px 10px;
+  font-weight: 600;
+  font-size: 12px;
+  border: 0;
+  border-radius: 12px;
+}
+
 .subMenu1 {
   margin-left: 10px;
   display: flex;
@@ -52,38 +72,6 @@ header {
 .dot3Menu {
   padding: 0px 10px;
   width: 20px;
-}
-
-button {
-  background: transparent;
-  border: 0;
-  color: #dddddd;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 6px 16px;
-  display: none;
-}
-.new {
-  background: #08164088;
-  color: #0cdeed;
-  padding: 4px 10px;
-  font-weight: 600;
-  font-size: 12px;
-  border: 0;
-  border-radius: 12px;
-}
-
-.login {
-  color: #737373;
-  display: inline-block;
-  border: 1px solid rgb(232, 232, 232);
-  border-radius: 30px;
-  padding: 8px 16px;
-  font-size: 14px;
-}
-
-.loginBox {
-  display: flex;
 }
 
 @media (min-width: 1024px) {
